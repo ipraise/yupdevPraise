@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.praizo.birthdaycardapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/wallpapper"
+        android:src="@drawable/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/happy_birthday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy birthday, Ejiro!"
+        android:padding="20dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:background="#961f2020"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There isn't a sweeter soul than you who has been born into this world. here's to the best day of your year."
+        android:layout_marginBottom="200dp"
+        android:layout_marginTop="180dp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:background="#961f2020"
+        android:layout_below="@id/happy_birthday"/>
+
+
+    <TextView
+        android:id="@+id/praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="From, Praise. "
+
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:background="#961f2020"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
